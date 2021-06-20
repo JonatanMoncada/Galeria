@@ -1,3 +1,31 @@
-body{
-    background: #000500;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    background: #000500;    
+}
+
+.galeria{
+        width: 100%;        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;               
+        img{
+            vertical-align: top;
+            width: 400px;
+            height: 370px;
+            margin: 20px;
+            padding: 5px;
+            border: 1px solid #484848;
+            opacity: 0.5;
+            
+            &:hover{
+                border: 1px solid #fff;
+                opacity: 1;
+            }
+        }
+
+        
+    }
